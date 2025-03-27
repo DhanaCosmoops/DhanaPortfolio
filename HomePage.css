@@ -239,7 +239,7 @@ text-align: start;
 }
  /*Service*/
  .services{
-    background-color: bisque;
+    /* background-color: bisque; */
  }
  .services h1{
     font-size:40px;
@@ -347,4 +347,76 @@ text-align: start;
         font-size: 13px;
         padding: 8px;
     }
+}
+
+/* Clients */
+.clients{
+text-align: center;
+
+}
+.clients h1{
+    font-size:40px;
+    padding:20px 0px;
+    text-align: center;
+ }
+.outer-section {
+    background-color: white;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: auto;
+}
+
+.inner-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding:20px;
+}
+
+.image-container {
+    width: 30%; 
+}
+
+.image-container img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+ @media (max-width: 768px) {
+    .image-container {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container {
+        width: 100%; 
+    }
+} 
+
+/*Education and work experience*/
+.edu h1{
+    font-size:40px;
+    padding:20px 0px;
+    text-align: center;
+}
+.edu-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+.edu1 .edu2{
+    width:325px;
+    background-color: coral;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0px 2px 4px rgba(0,0,0,0.2);
+    margin:20px;
 }
